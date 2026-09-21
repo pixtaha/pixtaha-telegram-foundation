@@ -1,0 +1,28 @@
+{
+  "update_id": 1019,
+  "message": {
+    "message_id": 19,
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": -1001234567890,
+      "title": "Demo Group",
+      "type": "supergroup"
+    },
+    "date": 1790000170,
+    "text": "/start@demo_bot hello there",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 15,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

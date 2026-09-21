@@ -1,0 +1,70 @@
+{
+  "update_id": 1015,
+  "callback_query": {
+    "id": "demo_cb_2",
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "message": {
+      "message_id": 41,
+      "from": {
+        "id": 9000000001,
+        "is_bot": true,
+        "first_name": "Demo Bot",
+        "username": "demo_bot"
+      },
+      "chat": {
+        "id": 1000000003,
+        "first_name": "Demo",
+        "last_name": "User",
+        "username": "demo_user",
+        "type": "private"
+      },
+      "date": 1790000130,
+      "text": "Duplicate found",
+      "reply_to_message": {
+        "message_id": 30,
+        "from": {
+          "id": 1000000003,
+          "is_bot": false,
+          "first_name": "Demo",
+          "last_name": "User",
+          "username": "demo_user",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 1000000003,
+          "first_name": "Demo",
+          "last_name": "User",
+          "username": "demo_user",
+          "type": "private"
+        },
+        "date": 1790000125,
+        "caption": "6221031234567 Sony A7\nCameras\nMirrorless",
+        "photo": [
+          {
+            "file_id": "DEMO_PHOTO_DUP_0",
+            "file_unique_id": "DEMO_UQ_PHOTO_DUP_0",
+            "file_size": 400,
+            "width": 90,
+            "height": 60
+          },
+          {
+            "file_id": "DEMO_PHOTO_DUP_1",
+            "file_unique_id": "DEMO_UQ_PHOTO_DUP_1",
+            "file_size": 4000,
+            "width": 320,
+            "height": 200
+          }
+        ]
+      }
+    },
+    "chat_instance": "demo_instance",
+    "data": "duplicate:replace:55"
+  }
+}

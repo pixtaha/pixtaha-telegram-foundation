@@ -1,0 +1,24 @@
+{
+  "update_id": 1012,
+  "edited_message": {
+    "message_id": 2,
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 1000000003,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "type": "private"
+    },
+    "date": 1790000010,
+    "text": "Hello (edited)",
+    "edit_date": 1790000200
+  }
+}

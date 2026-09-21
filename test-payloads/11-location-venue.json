@@ -1,0 +1,36 @@
+{
+  "update_id": 1011,
+  "message": {
+    "message_id": 11,
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 1000000003,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "type": "private"
+    },
+    "date": 1790000100,
+    "location": {
+      "latitude": 30.0459,
+      "longitude": 31.2243
+    },
+    "venue": {
+      "location": {
+        "latitude": 30.0459,
+        "longitude": 31.2243
+      },
+      "title": "مكتب بريد - تجريبي",
+      "address": "عنوان تجريبي",
+      "foursquare_id": "demo_fsq_id",
+      "foursquare_type": "building/postoffice"
+    }
+  }
+}

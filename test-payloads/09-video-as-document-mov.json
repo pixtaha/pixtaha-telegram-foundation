@@ -1,0 +1,43 @@
+{
+  "update_id": 1009,
+  "message": {
+    "message_id": 9,
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 1000000003,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "type": "private"
+    },
+    "date": 1790000080,
+    "document": {
+      "file_name": "demo.mov",
+      "mime_type": "video/quicktime",
+      "thumbnail": {
+        "file_id": "DEMO_THUMB_MOV",
+        "file_unique_id": "DEMO_UQ_THUMB_MOV",
+        "file_size": 12000,
+        "width": 320,
+        "height": 180
+      },
+      "thumb": {
+        "file_id": "DEMO_THUMB_MOV",
+        "file_unique_id": "DEMO_UQ_THUMB_MOV",
+        "file_size": 12000,
+        "width": 320,
+        "height": 180
+      },
+      "file_id": "DEMO_DOC_MOV",
+      "file_unique_id": "DEMO_UQ_DOC_MOV",
+      "file_size": 3861386
+    }
+  }
+}

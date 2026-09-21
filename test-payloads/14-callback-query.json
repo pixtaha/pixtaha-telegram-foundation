@@ -1,0 +1,34 @@
+{
+  "update_id": 1014,
+  "callback_query": {
+    "id": "demo_cb_1",
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "message": {
+      "message_id": 40,
+      "from": {
+        "id": 9000000001,
+        "is_bot": true,
+        "first_name": "Demo Bot",
+        "username": "demo_bot"
+      },
+      "chat": {
+        "id": 1000000003,
+        "first_name": "Demo",
+        "last_name": "User",
+        "username": "demo_user",
+        "type": "private"
+      },
+      "date": 1790000120,
+      "text": "Approve?"
+    },
+    "chat_instance": "demo_instance",
+    "data": "order:approve:123:cash"
+  }
+}

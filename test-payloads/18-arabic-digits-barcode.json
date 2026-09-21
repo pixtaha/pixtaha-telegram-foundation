@@ -1,0 +1,39 @@
+{
+  "update_id": 1018,
+  "message": {
+    "message_id": 18,
+    "from": {
+      "id": 1000000003,
+      "is_bot": false,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 1000000003,
+      "first_name": "Demo",
+      "last_name": "User",
+      "username": "demo_user",
+      "type": "private"
+    },
+    "date": 1790000160,
+    "caption": "٦٢٢١٠٣١٢٣٤٥٦٧ كاميرا",
+    "photo": [
+      {
+        "file_id": "DEMO_PHOTO_AR_0",
+        "file_unique_id": "DEMO_UQ_PHOTO_AR_0",
+        "file_size": 400,
+        "width": 90,
+        "height": 60
+      },
+      {
+        "file_id": "DEMO_PHOTO_AR_1",
+        "file_unique_id": "DEMO_UQ_PHOTO_AR_1",
+        "file_size": 4000,
+        "width": 320,
+        "height": 200
+      }
+    ]
+  }
+}

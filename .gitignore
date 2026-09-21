@@ -1,0 +1,11 @@
+# secrets
+.env
+.env.*
+*.pem
+*credentials*.json
+
+# node / os
+node_modules/
+.DS_Store
+Thumbs.db
+*.log

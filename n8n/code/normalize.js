@@ -1,8 +1,3 @@
-// n8n Code node: "Normalize"
-// Mode: Run Once for All Items | Language: JavaScript
-// Turns ANY Telegram update into one consistent object.
-// Reads: $('Telegram Trigger') and $('Build Config')
-
 const rawInput = $('Telegram Trigger').first().json;
 const raw = Array.isArray(rawInput) ? rawInput[0] : rawInput;
 if (!raw) throw new Error('No trigger data found');

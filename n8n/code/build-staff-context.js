@@ -1,6 +1,5 @@
 const norm = (v) => String(v ?? '').trim().toLowerCase();
 
-// الأدوار دي دايمًا موجودة كـ array (فاضي لو مفيش حد)، عشان ما تلاقيش undefined
 const KNOWN_ROLES = ['owner', 'admin', 'developer', 'reception', 'cashier', 'social'];
 
 const staff = $input.all()

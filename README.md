@@ -1,5 +1,3 @@
-**English** | **[العربية](README.ar.md)**
-
 # Telegram Workflow Foundation for n8n
 
 A reusable foundation for any Telegram bot built in n8n:

@@ -1,8 +1,3 @@
-// n8n Code node: "Build Config"
-// Mode: Run Once for All Items | Language: JavaScript
-// Input : rows from the "Get Config" Postgres node (config_key, config_value)
-// Output: ONE item => { ...every config key, environment }
-
 const setup = $('Set Environment').first().json;
 const env = setup.environment;
 if (!env) throw new Error('Missing "environment" field in Set Environment node');

@@ -20,7 +20,6 @@ function escapeSql(text) {
   return text.replace(/'/g, "''");
 }
 
-// بيوصف أي رسالة (الحالية أو المردود عليها) بنفس الطريقة
 function describeMedia(m) {
   if (!m) return { type: null };
   if (Array.isArray(m.photo) && m.photo.length) {
@@ -77,7 +76,7 @@ function extractBarcodeAndHints(rawText) {
     barcodeClean = digits;
     hints = restOfFirstLine ? [restOfFirstLine, ...lines.slice(1)] : lines.slice(1);
   } else {
-    hints = lines; // مفيش باركود: كل السطور hints
+    hints = lines;
   }
 
   const [h1 = null, h2 = null, h3 = null] = hints;
@@ -130,7 +129,7 @@ function fillReplied(rep) {
   if (m.type === 'video') out.replied_to_video_id = m.file_id;
   if (m.type === 'audio') out.replied_to_audio_id = m.file_id;
   if (m.as_document) {
-    out.replied_to_document_url = m.file_id; // الاسم قديم، بس القيمة file_id
+    out.replied_to_document_url = m.file_id;
     out.replied_to_document_name = m.name;
     out.replied_to_document_mime = m.mime;
   }
@@ -213,7 +212,7 @@ if (cq) {
       out.command_args = args.join(' ') || null;
       out.message_type = 'command';
     } else if (!out.message_text) {
-      out.message_type = 'other'; // contact, poll, dice...
+      out.message_type = 'other';
     } else if (out.is_reply) {
       out.message_type = ents.some(e => e.type === 'mention') ? 'mention_reply' : 'reply';
     } else {
